@@ -1,5 +1,5 @@
 FROM alpine:latest
-RUN  mkdir -p /chartmuseum
+RUN  mkdir -p mkdir -p /charts
 WORKDIR /charts
-ADD chartmuseum /charts/chartmuseum
-ENTRYPOINT ["/charts/chartmuseum"]
+ADD chartmuseum /chartmuseum
+ENTRYPOINT ["/chartmuseum"]
